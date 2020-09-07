@@ -1,0 +1,410 @@
+
+
+.sticky {
+    background-color: #042037;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 20px;
+  }
+.footer_sticker {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #042037;
+  color: white;
+  text-align: center;
+  vertical-align:text-top;
+  font-family: 'Sailec','Helvetica','Arial',sans-serif;
+}
+.footer_section {
+  display:inline-block;
+  vertical-align: text-top;
+  margin-left:10%;
+  width:20%;
+  text-align:left;
+}
+
+.footer_section_logo{
+  display:inline-block;
+  vertical-align: text-top;
+  margin-left:10%;
+  width:20%;
+  text-align:left;
+}
+.copy_rights{
+  text-align:left;
+  right:10%;
+  color:rgb(156, 151, 151);
+}
+.address {
+  border-bottom: 1px solid white;
+  font-size: 20px;
+  text-align:left;
+  padding-bottom:3px;
+  display: inline;
+}
+  #header_image {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+#main_page_buttons {
+  display: inline-block;
+}
+.App {
+  position: relative;
+  min-height: 100vh !important;
+}
+@media (max-width: 600px) {
+
+	.inlineClass {
+		display:block !important;
+		width:100% !important;
+		margin-top:15px;
+		text-align: center !important;
+	 }
+
+   .footer_sticker {
+     text-align: left !important;
+   }
+	#logo2 {
+		visibility : hidden !important;
+  }
+  .footer_section{
+    width: auto !important;
+    margin-left:5px !important;
+    text-align: left;
+    right: 0%;
+    margin-bottom: 10px;
+
+  }
+  
+	#logo1{
+		display: block !important;
+		right: 0% !important; 
+		margin-bottom: 20px;
+	}
+	
+	.num_header{
+		margin-left: 50px !important;
+	}
+	.submit_dialog{
+		width:300px !important;
+
+	}
+	.reviewing {
+		text-align: center !important;
+  }
+  .image_main{
+    visibility: hidden !important;
+    width:0% !important;
+  }
+  
+  .middle_text {
+    display: relative !important;
+    text-align: left !important;
+    width:100% !important;
+  }
+  .footer_section_logo {
+    visibility: hidden !important;
+    width: 0% !important;
+  }
+  .main_page {
+    padding-bottom: 20rem !important;
+  }
+  li {
+    font-size: 20px !important;
+  }
+  .header_image {
+    margin:auto;
+  }
+  .about_us{
+    margin-left:2% !important;
+    width:100% !important;
+  }
+  .go_back_button {
+    margin-left:2% !important;
+  }
+  .App {
+    width: 100vw !important;;
+    position:absolute !important;;
+    margin:auto !important;
+  }
+  .main_page_parent {
+    display: relative !important;
+     text-align: left !important;
+      width: 100%;
+      vertical-align:top;
+ }
+
+ .middle_text_first{
+    margin-left:2% !important;
+  }
+  
+}
+.main_page_parent {
+   display: table;
+    text-align: center;
+     width: 100%;
+     vertical-align:top;
+}
+
+.main_page{
+  text-align: center;
+  position: relative;
+  padding-bottom: 10rem;
+  width: 100%;
+}
+
+h3  { color: #d54d7b; font-family: "Great Vibes", cursive; font-size: 165px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff; }
+
+
+#instructions{
+
+width:100%;
+height:150px;
+}
+.submit_dialog{
+	width:400px;
+}
+
+li { color: black; font-size: 29px; font-family: "Libre Baskerville", serif; line-height: 45px; text-align: left; text-shadow: 0 1px 1px #fff; padding-top: 20px; }
+.list {
+  font-size: 25px !important;
+  padding-top: 5px !important; 
+}
+.app_menu_item {
+  display: inline-block !important;
+  margin-left: 30px;
+  width:100% !important;
+  
+	
+}
+
+.app_button {
+  background-color: #042037 !important;
+  padding: 8px !important;
+  border: none !important;
+  height:50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  min-width: 100px;
+  font-family: "Great Vibes" !important;
+  font-size: 20px !important; 
+}
+.side_image {
+  max-width: 90%;
+  border-radius: 50%;
+}
+.header_main{
+  text-align: center;
+  font-family: "Great Vibes" !important;
+  font-size: 35px !important;  
+  margin-bottom:20px;
+  font-weight: bold;
+}
+.header {
+  font-family: "Great Vibes" !important;
+  font-size: 25px !important;  
+  margin-top:20px;
+  margin-bottom:10px;
+  font-weight: bold;
+}
+.header span {
+
+  border-bottom:2px solid black;
+}
+
+.explanation {
+  font-family: "Great Vibes" !important;
+  font-size: 20px !important;  
+}
+
+.header_main span {
+
+  border-bottom:2px solid black;
+}
+
+.clickeable:hover {
+  color: #7a6464;
+  cursor: pointer;
+  border-bottom: 1px solid #7a6464;
+}
+.num_header:hover {
+  text-decoration: none;
+}
+.help{
+  width:50% !important;
+}
+.app_button span {
+  color:white !important;
+}
+.about_us {
+  
+    text-align: left;
+    position: relative;
+    padding-bottom: 15rem;
+    width: 40%;
+    margin-left: 20%;
+}
+.app_button:hover {
+  background-color: #144857 !important;
+  cursor: pointer;
+}
+.app_button:focus{
+  outline:none !important;
+}
+.go_back_button{
+  margin-left:20%;
+  font-size:25px;
+  color:blue;
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom:20px;
+}
+.middle_text {
+
+text-align: left;
+display: table-cell;
+width: 50%;
+vertical-align:top;
+}
+.middle_text_first{
+margin-left:20% ;
+}
+.image_main {
+  text-align: center;
+   display: table-cell;
+    width: 20%;
+    vertical-align:center 
+}
+.go_back_button:hover{
+  color:rgb(120, 120, 145);
+  cursor:pointer;
+}
+
+#app_dialog .MuiPaper-root {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card_input {
+  margin-bottom: 20px !important;
+  height: 50px !important;
+  width: 100% !important;
+  background-color: white;
+  padding:5px;
+  border: 1px solid #dfdbdb;
+  border-radius: 4px;
+  transition: box-shadow 150ms ease;
+}
+.card_input_label {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.errorDialog {
+  color: red;
+}
+
+.full{
+width:100%;
+}
+.spinner_parent > div {
+  position: absolute !important;
+  top: 20% !important;
+  right: 30% !important;
+}
+.spinner_parent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-color: black;
+  opacity: 0.2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.hidden {
+  visibility: hidden !important;
+}
+
+@media (max-width: 1200px) {
+  #main_image {
+    width: 100%;
+    position: relative;
+    left: 2px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  #logo {
+    height: 80px;
+  }
+}
+.logo {
+  height: 80px;
+  position: relative;
+}
+#top_header{
+	position:relative;
+}
+.inlineClass {
+	display:inline-block;
+        margin-right:30px;
+	color:white;
+	width:20%;
+	top:0;
+	position:relative;
+	text-align: left;
+	vertical-align:top;
+
+}
+.marketing{
+  margin-top:20px;
+  margin-bottom:20px;
+  max-width:100%;
+  
+
+}
+
+#marketing_parent {
+  position:relative;
+  text-align:left;
+  display:inline-block;
+  
+}
+
+
+.boldClass {
+	font-weight: bold;
+}
+
+
+.num_header{
+	color: white;
+	display: inline-block;	
+	margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Great Vibes" !important;
+  font-size: 20px !important;
+  border-bottom: 1px solid white;
+}
+.reviewing {
+	text-align: left;
+}
+.review_parent {
+	padding:15px;
+}
+
